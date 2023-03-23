@@ -2,16 +2,20 @@ import './App.css'
 
 import { Route, Routes } from 'react-router-dom'
 
-const Home = () => <h1>Home</h1>
+import Navbar from './components/Navbar'
+import Home from './pages/Home'
+import Contact from './pages/Contact'
 
 function App () {
   return (
-    <div className='App'>
+    <>
+      <Navbar />
       <Routes>
         <Route path='/' element={<Home />} />
+        <Route path='/contact' element={<Contact />} />
       </Routes>
 
-    </div>
+    </>
   )
 }
 
