@@ -1,8 +1,8 @@
-function Home () {
+function Contact () {
   return (
     <>
       <h1>Contact</h1>
     </>
   )
 }
-export default Home
+export default Contact

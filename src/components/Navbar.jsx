@@ -1,16 +1,18 @@
 import { Link } from 'react-router-dom'
+import Logo from '../assets/navbar_logo.png'
+import './Navbar.css'
 
 function Navbar () {
   return (
     <>
       <nav>
         <div className='navbar'>
-          <div className='navbar__img'>
+          <div className='navbar_img'>
             <Link to='/' onClick={() => window.scrollTo(0, 0)}>
-              <img alt='logo-img' />
+              <img src={Logo} alt='logo-img' />
             </Link>
           </div>
-          <ul className='navbar__links'>
+          <ul className='navbar_links'>
             <li>
               <Link className='home-link' to='/'>
                 Home
@@ -24,7 +26,7 @@ function Navbar () {
             </li>
             <li>
               {' '}
-              <Link className='models-link' to='/models'>
+              <Link className='models-link' to='/vehicle-models'>
                 Vehicle Models
               </Link>
             </li>
@@ -36,7 +38,7 @@ function Navbar () {
             </li>
             <li>
               {' '}
-              <Link className='team-link' to='/team'>
+              <Link className='team-link' to='/our-team'>
                 Our Team
               </Link>
             </li>
@@ -47,18 +49,13 @@ function Navbar () {
               </Link>
             </li>
           </ul>
-          <div className='navbar__buttons'>
-            <Link className='navbar__buttons__sign-in' to='/'>
+          <div className='navbar_btn'>
+            <Link className='navbar_btn_sign' to='/'>
               Sign In
             </Link>
-            <Link className='navbar__buttons__register' to='/'>
+            <Link className='navbar_btn_reg' to='/'>
               Register
             </Link>
-          </div>
-
-          {/* mobile */}
-          <div className='mobile-hamb' onClick=''>
-            <i className='fa-solid fa-bars' />
           </div>
         </div>
       </nav>
