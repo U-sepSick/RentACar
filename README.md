@@ -1,4 +1,4 @@
-<div align='center'><img style="width:30%" src='./assets/navbar-logo.png'/></div>
+<div align='center'><img style="width:30%" src='src/assets/navbar-logo.png'/></div>
 
 <h2>About the project</h2>
 
@@ -16,6 +16,6 @@
 <h3 align='center'>Home Page 🏡</h3>
 
 <div align='center'>
-<img src='./assets/readme-sample.png'/>
+<img src='src/assets/readme-sample.png'/>
 
 </div>
