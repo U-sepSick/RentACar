@@ -55,17 +55,8 @@
   text-shadow: 0 10px 10px 0 rgb(255 69 0 / 50%);
 }
 
-.navbar_btn_reg {
-  padding: 0.6rem;
-  width: 6rem;
-  border-radius: 0.2rem;
-  color: #fff;
-  cursor: pointer;
-  text-decoration: none;
-  background-color: orangered;
-  
-  box-shadow: 0 10px 10px 0 rgb(255 69 0 / 20%);
-  transition: all 0.3s;
+.std-button link {
+  width: 7rem;
 }
 
 .navbar_btn_reg:hover {

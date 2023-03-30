@@ -1,0 +1,23 @@
+.book-car {
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    gap: 2rem;
+    background-color: rgb(218, 247, 237);
+}
+
+.select-car,
+.pick-up,
+.return,
+.pick-up-date,
+.return-date {
+    display: flex;
+    flex-direction: column;
+}
+
+.std-button {
+    width: 20rem;
+}

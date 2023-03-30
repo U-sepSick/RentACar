@@ -4,6 +4,21 @@
   text-align: center;
 }
 
+.std-button{
+  width: 7rem;
+  font-weight: 800;
+  padding: 1.1rem;
+  border-radius: 0.2rem;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  background-color: orangered;
+  
+  box-shadow: 0 10px 10px 0 rgb(255 69 0 / 20%);
+  transition: all 0.3s;
+}
+
 ::-webkit-scrollbar {
   width: 10px;
 }

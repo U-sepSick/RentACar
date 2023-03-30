@@ -53,7 +53,7 @@ function Navbar () {
             <Link className='navbar_btn_sign' to='/'>
               Sign In
             </Link>
-            <Link className='navbar_btn_reg' to='/'>
+            <Link className='std-button' to='/'>
               Register
             </Link>
           </div>
