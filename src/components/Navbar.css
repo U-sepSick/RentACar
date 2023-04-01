@@ -57,6 +57,7 @@
 
 .std-button link {
   width: 7rem;
+  font-weight: 800;
 }
 
 .navbar_btn_reg:hover {
